@@ -7,7 +7,7 @@ import joblib  # If the model is saved as a pickle file
 model = joblib.load("model.pkl")  # Update with correct model path
 
 # Load dataset from CSV
-csv_file_path = "Prediction Data"  # Update with the actual file path
+csv_file_path = "Prediction_Data_Cleaned.csv"  # Update with the actual file path
 df = pd.read_csv(csv_file_path)
 
 # Streamlit UI
